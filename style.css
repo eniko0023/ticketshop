@@ -1,0 +1,35 @@
+:root{
+    --left:hsl(207, 56%, 47%);
+    --right:hsl(232, 63%, 17%);
+}
+*{box-sizing: border-box; margin: 0; padding: 0;}
+header{
+    background-image: linear-gradient(var(--left), var(--right));
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    width: 50vw;
+    border-radius: 50px;
+}
+
+.myContainer{
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    row-gap: .3rem;
+}
